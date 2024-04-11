@@ -1,18 +1,12 @@
 import json
 import pydot
 
-with open('example_backend.json', 'r') as archivo:
+
+with open("/home/juanfm/formacion_python/Raul_Diego_juan_diagrama/example_backend.json", "r") as archivo:
     datos = json.load(archivo)
 
-for dato in datos:
-    id_nodo = dato["id"]
-    schemaID = dato["schemaId"]
-    outputs = dato["connectedTo"]["outputs"]
-    inputs = dato["connectedTo"]["inputs"]
-    
-    print("ID:", id_nodo)
-    print("Outputs: ", outputs)
-    print("Inputs:", inputs)
+graph = pydot.Dot(graph_type='digraph')
+
 
 
 
