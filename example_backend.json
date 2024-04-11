@@ -42,7 +42,7 @@
     "outputs": [
       {
         "outputId": "detections_name",
-        "type": "value"
+        "type": "value",
         "value": "detections"
       }
     ],
@@ -142,7 +142,7 @@
     "outputs": [
       {
         "outputId": "output-camera-name",
-        "type": "value"
+        "type": "value",
         "value": "imagen_1"
       }
     ],
